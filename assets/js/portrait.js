@@ -17,6 +17,8 @@
   };
   const reveal = value => {
     target = Math.max(0, Math.min(100, value));
+    // Fade the side that is giving way, like the reference site.
+    hero.dataset.side = target > 62 ? 'design' : target < 38 ? 'product' : 'balanced';
     if (reduced.matches) {
       if (frame !== null) cancelAnimationFrame(frame);
       frame = null; previous = 0; current = target; render();
