@@ -1,0 +1,14 @@
+.sketch-section{border-top:1px solid #eee}.sketch-section h2{font-size:clamp(28px,4vw,42px);line-height:1.2;letter-spacing:-1.2px;margin:15px 0}.sketch-intro{font-size:15px;color:#666;max-width:720px}.sketch-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:25px;margin-top:35px}.sketch-grid figure{margin:0;min-width:0}.sketch-grid img{width:100%;height:auto;display:block;border:1px solid #ece8df;border-radius:7px}.sketch-grid figcaption{margin-top:17px}.sketch-grid figcaption span{font-size:12px;font-weight:700}.sketch-grid figcaption p{font-size:13px;color:#777;line-height:1.6}.experience-details{padding-left:18px;margin:15px 0 5px;color:#666;font-size:14px;line-height:1.75}.experience-details li{margin:8px 0}@media(max-width:720px){.sketch-grid{grid-template-columns:1fr;gap:30px}.sketch-grid figure{width:100%;max-width:410px;margin:auto}.experience-details{font-size:13px}}
+/* Review-only mobile hero repair: let text determine its own row height. */
+@media(max-width:720px){
+.hero-inner{height:auto;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px 14px;padding:22px 12px 0}
+.hero-inner>.identity{position:static;grid-column:1/-1;text-align:center;margin-bottom:14px}
+.hero-inner>.role{position:relative;top:auto;left:auto;right:auto;width:auto;min-width:0;padding:10px 6px;align-self:start}
+.hero-inner>.role-design{grid-column:1;grid-row:2}
+.hero-inner>.role-product{grid-column:2;grid-row:2;text-align:right}
+.hero-inner .role-title{font-size:clamp(24px,7vw,34px);letter-spacing:-1.3px}
+.hero-inner .role-product .role-title{font-size:clamp(22px,6vw,28px);line-height:1.08}
+.hero-inner .role-product .role-title br{display:initial}
+.hero-inner .role-desc{font-size:13px;line-height:1.6;margin-top:12px;max-width:none}
+.hero-inner>.portrait{position:relative;grid-column:1/-1;grid-row:3;left:auto;bottom:auto;transform:none;width:min(380px,100%);height:auto;aspect-ratio:380/455;margin:0 auto}
+}
