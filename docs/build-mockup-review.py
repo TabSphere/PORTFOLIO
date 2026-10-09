@@ -6,7 +6,7 @@ import base64, re, mimetypes
 root = Path(__file__).resolve().parents[1]
 prefix = 'assets/img/conservation-media/mockups/'
 def figure(key, title):
-    src = prefix + key + '.png'
+    src = prefix + key + '-lifestyle.png'
     w, h = Image.open(root / src).size
     return BeautifulSoup(f'<figure class="gd-artwork media-mockup"><a href="{src}" target="_blank" rel="noopener"><img src="{src}" width="{w}" height="{h}" loading="lazy" decoding="async" alt="{title}, studio presentation mockup"></a><figcaption><h3>{title}</h3><a href="{src}" target="_blank" rel="noopener">View full size ↗</a></figcaption></figure>', 'html.parser').figure
 
@@ -22,7 +22,7 @@ if not staff.select('.media-mockup'):
     sections[2].select_one('.gd-grid').insert_before(figure('fire', 'Fire safety communications'))
 (root/'staff-awareness.html').write_text(str(staff))
 
-# Preview contains the two updated design stories, with original artwork retained.
+# Preview contains the two updated design stories, with only lifestyle mockups displayed.
 # Videos remain unchanged in the website; this lightweight review focuses on mockups.
 doc = BeautifulSoup('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Campaign Mockup Review</title></head><body></body></html>', 'html.parser')
 css = '\n'.join((root/p).read_text() for p in ['assets/css/portfolio.css','assets/css/graphic-design.css','assets/css/conservation-media.css'])
@@ -54,8 +54,8 @@ for i, img in enumerate(doc.select('img')):
             a['href']='#'+img['id']
             a.attrs.pop('target',None)
     img['loading']='eager'
-out=root.parent/'preview/Campaign_Mockup_Review.html';out.write_text(str(doc))
+out=root.parent/'preview/Campaign_Mockup_Review.html';out.parent.mkdir(parents=True, exist_ok=True);out.write_text(str(doc))
 assert len(doc.select('.media-mockup'))==4
-assert len(doc.select('main .gd-artwork img'))==13
+assert len(doc.select('main .gd-artwork img'))==4
 assert not doc.select('img[src^="assets/"]')
-print(f'Preview: {out} ({out.stat().st_size} bytes); 4 mockups, 9 original designs')
+print(f'Preview: {out} ({out.stat().st_size} bytes); 4 lifestyle mockups, no flat artwork displays')

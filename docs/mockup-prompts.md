@@ -10,3 +10,7 @@ Created with the built-in image-generation tool, using the existing public-safe 
 - Fire: Present the three existing public-safe square fire-awareness designs as three square matte prints, visible without content overlap. Warm grey studio, soft shadows and physical paper edges. Preserve artwork; never add meeting links, IDs or passcodes.
 
 Generated typography may differ in small details. The flat original artwork is the authoritative design, retained unchanged. Mockups are supplementary presentation imagery.
+
+## Approved lifestyle presentation
+
+Only four lifestyle mockups appear in the close-season and staff-awareness stories. Separate flat artwork displays are removed. Scenes are AI-generated concepts, not historical installation photographs. Full videos remain available.
