@@ -18,7 +18,7 @@ Review branch only. No publication or merge authorised for this addition.
 - `community-gathering-original.jpg`: report DOCX media/image2.jpeg, captioned Old Papaase in the report.
 - `constitution-session-original.jpg`: report media/image3.jpeg, captioned presentation at Akweikrom.
 - `livelihood-discussion-original.jpg`: report media/image7.jpeg, captioned discussion at Abronehia.
-- The user requested simpler captions and removal of AI-edit notices and photo comparisons. The public page therefore uses his original photographs. The generated retouching variants were removed from the review branch.
+- Three `*-edited.jpg` presentation variants are displayed, as requested by the user. Original source photographs are retained separately. The page uses clean captions without edit labels or comparison panels.
 
 ## Boundaries
 
