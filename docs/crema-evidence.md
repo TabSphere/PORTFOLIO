@@ -1,5 +1,7 @@
 # CREMA case study evidence ledger
 
+User-confirmed tools: Adobe InDesign, Photoshop, Lightroom and Premiere Pro.
+
 Review branch only. No publication or merge authorised for this addition.
 
 ## Sources and supported claims
@@ -12,11 +14,11 @@ Review branch only. No publication or merge authorised for this addition.
 
 - Five `*-cover.jpg` images: exports from the original PDFs, compressed for the website; artwork not redesigned.
 - `akontombraman-interior.jpg`: Akontombraman PDF page 3, printed page 2. Names, aim, motto and purpose. No contact details or signatures shown.
-- `constitution-mockup.jpg`: newly generated portfolio presentation using all five cover references. Labelled as a retrospective AI-generated mockup, not evidence of historical printed copies. Fine text may vary; use the original exports to inspect the exact artwork.
+- `constitution-mockup.jpg`: newly generated portfolio presentation using all five cover references. Labelled as a book mockup, not evidence of historical printed copies. Fine text may vary; use the original exports to inspect the exact artwork.
 - `community-gathering-original.jpg`: report DOCX media/image2.jpeg, captioned Old Papaase in the report.
 - `constitution-session-original.jpg`: report media/image3.jpeg, captioned presentation at Akweikrom.
 - `livelihood-discussion-original.jpg`: report media/image7.jpeg, captioned discussion at Abronehia.
-- Three `*-edited.jpg` versions: AI-assisted exposure/colour presentation variants, explicitly labelled. Originals retained and accessible through comparisons. They are not substitutes for original documentary evidence.
+- The user requested simpler captions and removal of AI-edit notices and photo comparisons. The public page therefore uses his original photographs. The generated retouching variants were removed from the review branch.
 
 ## Boundaries
 
