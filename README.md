@@ -23,3 +23,12 @@ Serve this directory with any static host. Legacy blog pages and assets remain i
 
 ## About page and motion refresh
 Dedicated about.html uses supplied field photographs and design archive, with general captions where project names are unconfirmed. Manrope fonts and GSAP 3.15.0 / ScrollTrigger are served locally. Motion respects reduced-motion preference and content stays readable if scripts fail. Home backdrop uses independent decorative layers; it is a 2D depth effect, not a 3D model. The supplied five-second design video is opt-in with native controls.
+
+
+## Profile introduction (October 2026)
+The website profile is Digital Product Designer & AI Consultant. The homepage
+includes a 15-second, opt-in introduction with a poster, native controls,
+English WebVTT captions, a transcript and a download link. The web export is
+1080p/30fps; preload="none" avoids downloading the video until playback.
+The supplied downloadable CV and historical project evidence remain separate
+source documents. The voiceover is AI narration.
